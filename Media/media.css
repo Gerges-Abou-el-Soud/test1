@@ -1,0 +1,373 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* start media header */
+
+    .header .p-wel {
+        font-size: 1.5rem;
+    }
+
+    .header h2 {
+        font-size: 3rem;
+    }
+
+    .header .p-based {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    /* end media header */
+    /* start media About me  */
+    .title h2 {
+        font-size: 4rem;
+    }
+
+    .title p {
+        font-size: 1.5rem;
+    }
+
+    .title p::before {
+        width: 60px;
+    }
+
+    .info-about-me {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Basic-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .statistics {
+        width: 100%;
+    }
+
+    .statistics .item h4 {
+        font-size: 1.5rem;
+    }
+
+    .statistics .item p {
+        font-size: 0.9rem;
+    }
+
+    /* end media About me  */
+    /* start media what i do */
+    .services .ser-items{
+        width: 100%;
+    }
+    /* end media what i do */
+    /* start media Resume */
+    .resume .res-w-p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skills h2 {
+        text-align: center;
+    }
+
+    .skill {
+        flex-direction: column;
+    }
+    /* end media Resume */
+    /* start media my work */ 
+    .work-container {
+        flex-direction: column;
+    }
+    /* end media my work */
+    /* start media client */
+    .client-item {
+        width: 100%;
+    }
+    /* end media client */
+    /* start media get in */
+    .get-in .address {
+        width: 100%;
+        margin: 50px;
+        text-align: center;
+    }
+    .get-in .send-us{
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-item .client-info{
+        flex-direction: column;
+
+    }
+    .send-us input {
+        width: 100%;
+    }
+    /* end media get in */
+    /* start media footer */
+    .footer-container{
+        flex-direction: column;
+    }
+    /* end media footer */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+    /* start media header */
+
+    .header .p-wel {
+        font-size: 1.5rem;
+    }
+
+    .header h2 {
+        font-size: 3rem;
+    }
+
+    .header .p-based {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    /* end media header */
+    /* start media About me  */
+    .title h2 {
+        font-size: 4rem;
+    }
+
+    .title p {
+        font-size: 1.5rem;
+    }
+
+    .title p::before {
+        width: 60px;
+    }
+
+    .info-about-me {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Basic-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .statistics {
+        width: 100%;
+    }
+
+    .statistics .item h4 {
+        font-size: 1.5rem;
+    }
+
+    .statistics .item p {
+        font-size: 0.9rem;
+    }
+
+    /* end media About me  */
+    /* start media what i do */
+    .services .ser-items{
+        width: 100%;
+    }
+    /* end media what i do */
+    /* start media Resume */
+    .resume .res-w-p {
+        width: 100%;
+        text-align: center;
+        }
+    .skills h2 {
+        text-align: center;
+    }
+    
+    .skill {
+        flex-direction: column;
+    }
+    /* end media Resume */
+    /* start media my work */ 
+    .work-container {
+        flex-direction: column;
+    }
+    /* end media my work */
+    /* start media client */
+    .client-item {
+        width: 100%;
+    }
+    /* end media client */
+    /* start media get in */
+    .get-in .address {
+        width: 100%;
+        margin: 50px;
+        text-align: center;
+    }
+    .get-in .send-us{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .form-item .client-info{
+        flex-direction: column;
+    
+    }
+    .send-us input {
+        width: 100%;
+    }
+    /* end media get in */
+    /* start media footer */
+    .footer-container{
+        flex-direction: column;
+    }
+    /* end media footer */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* start media header */
+
+    .header .p-wel {
+        font-size: 1.5rem;
+    }
+
+    .header h2 {
+        font-size: 3rem;
+    }
+
+    .header .p-based {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    /* end media header */
+    /* start media About me  */
+    .title h2 {
+        font-size: 4rem;
+    }
+
+    .title p {
+        font-size: 1.5rem;
+    }
+
+    .title p::before {
+        width: 60px;
+    }
+
+    .info-about-me {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Basic-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .statistics {
+        width: 100%;
+    }
+
+    .statistics .item h4 {
+        font-size: 1.5rem;
+    }
+
+    .statistics .item p {
+        font-size: 0.9rem;
+    }
+
+    /* end media About me  */
+    /* start media what i do */
+    .services .ser-items{
+        width: 100%;
+    }
+    /* end media what i do */
+    /* start media client */
+    .client-item {
+    width: 100%;
+    }
+    /* end media client */ 
+    /* start media get in */
+    .get-in .address {
+        width: 100%;
+        margin: 50px;
+        text-align: center;
+    }
+    .get-in .send-us{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .form-item .client-info{
+        flex-direction: column;
+    
+    }
+    .send-us input {
+        width: 100%;
+    }
+    /* end media get in */
+    /* start media footer */
+    .footer-container{
+        flex-direction: column;
+    }
+    /* end media footer */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /* start media About me  */
+    .title h2 {
+        font-size: 5rem;
+    }
+
+    .title p {
+        font-size: 2rem;
+    }
+
+    .title p::before {
+        width: 90px;
+    }
+
+
+    .info-about-me {
+        width: 100%;
+    }
+
+    .text-info {
+        width: 100%;
+
+    }
+
+    .Basic-info {
+        width: 100%;
+    }
+
+    .Basic-info ul li {
+        padding: 30px 0px;
+    }
+
+    .statistics {
+        width: 100%;
+    }
+
+    .statistics .item h4 {
+        font-size: 1.5rem;
+    }
+
+    .statistics .item p {
+        font-size: 0.9rem;
+    }
+
+    /* end media About me  */
+}
+
